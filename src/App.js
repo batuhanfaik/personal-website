@@ -1,7 +1,6 @@
 import React from "react";
 import { ReactComponent as IconGithub } from "./assets/icons/github.svg";
 import "./App.css";
-import construction from "./assets/construction.png";
 
 class App extends React.Component {
   render = () => {
@@ -36,7 +35,6 @@ class App extends React.Component {
               <div className="cta"> Visit my GitHub</div>
             </a>
           </div>
-          <img className="worker" src={construction} alt="Construction worker" />
         </div>
         <div className="footer">
           <span>
